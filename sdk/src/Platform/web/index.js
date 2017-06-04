@@ -30,6 +30,7 @@ var knownTransports = [ // In order of preference
 var knownLoginUis = [ // In order of preference
     require('../../LoginUis/WebAuthBroker'),
     require('../../LoginUis/CordovaPopup'),
+    require('../../LoginUis/ElectronPopup'),
     require('../../LoginUis/BrowserPopup')
 ];
 
